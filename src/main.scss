@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import './_utilits/vars.scss';
+@import './components/vector-icon/vector-icon.scss';
+@import './components/color-block/color-block.scss';
+
+.color-blocks {
+    margin-left: 150px;
+    margin-top: 145px;
+}
+
+.color-block_bgcolor-main-dark {
+    background-color: $main-dark;
+}
+
+.color-block_bgcolor-main-dark75 {
+    background: rgba(31, 32, 65, 0.75);
+}
+
+.color-block_bgcolor-main-dark50 {
+    background: rgba(31, 32, 65, 0.5);
+}
+
+.color-block_bgcolor-main-dark25 {
+    background: rgba(31, 32, 65, 0.25);
+}
+
+.color-block_bgcolor-main-dark5 {
+    background: rgba(31, 32, 65, 0.05);
+}
+
+.color-block_bgcolor-purple {
+    background: #BC9CFF;
+}
+
+.color-block_bgcolor-green {
+    background: #6FCF97;
+}
+
+.color-blocks .color-block-wrapper .color-block:not(.color-block_bgcolor-main-dark) {
+    margin-top: 20px;
+}

@@ -1,0 +1,12 @@
+$main-dark:#1F2041;
+
+
+
+@function get-size($n, $w) {
+    @return percentage($n/$w);
+}
+
+@function get-fz($n) {
+    @return ($n/16)+em;
+}
+
