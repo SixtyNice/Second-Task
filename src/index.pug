@@ -6,9 +6,12 @@ html(lang="en")
         meta(http-equiv="X-UA-Compatible", content="ie=edge")
         title Document
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    body
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    body(class="body")
         include ./components/vector-icon/vector-icon.pug
         include ./components/color-block/color-block.pug
+        include ./components/type-h1/type-h1.pug
+
         .color-blocks
             +color-block("color-block_bgcolor-main-dark", "Dark Shade 100%","#1F2041")
             +color-block("color-block_bgcolor-main-dark75", "Dark Shade 100%","#1F2041")
@@ -17,3 +20,6 @@ html(lang="en")
             +color-block("color-block_bgcolor-main-dark5", "Dark Shade 100%","#1F2041")
             +color-block("color-block_bgcolor-purple","Dark Shade 100%","#1F2041")
             +color-block("color-block_bgcolor-green","Dark Shade 100%","#1F2041")
+
+        .title-wrapper
+            +title('title',"Some text for title")
