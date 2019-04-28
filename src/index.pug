@@ -8,18 +8,21 @@ html(lang="en")
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     body(class="body")
-        include ./components/vector-icon/vector-icon.pug
-        include ./components/color-block/color-block.pug
-        include ./components/type-h1/type-h1.pug
+        //- .vector-icon-wrapper
+        //-     include ./components/vector-icon/vector-icon.pug
+        //- include ./components/color-block/color-block.pug
+        //- include ./components/type-h1/type-h1.pug
 
-        .color-blocks
-            +color-block("color-block_bgcolor-main-dark", "Dark Shade 100%","#1F2041")
-            +color-block("color-block_bgcolor-main-dark75", "Dark Shade 100%","#1F2041")
-            +color-block("color-block_bgcolor-main-dark50", "Dark Shade 100%","#1F2041")
-            +color-block("color-block_bgcolor-main-dark25", "Dark Shade 100%","#1F2041")
-            +color-block("color-block_bgcolor-main-dark5", "Dark Shade 100%","#1F2041")
-            +color-block("color-block_bgcolor-purple","Dark Shade 100%","#1F2041")
-            +color-block("color-block_bgcolor-green","Dark Shade 100%","#1F2041")
+        //- .color-blocks
+        //-     +color-block("color-block_bgcolor-main-dark", "Dark Shade 100%","#1F2041")
+        //-     +color-block("color-block_bgcolor-main-dark75", "Dark Shade 100%","#1F2041")
+        //-     +color-block("color-block_bgcolor-main-dark50", "Dark Shade 100%","#1F2041")
+        //-     +color-block("color-block_bgcolor-main-dark25", "Dark Shade 100%","#1F2041")
+        //-     +color-block("color-block_bgcolor-main-dark5", "Dark Shade 100%","#1F2041")
+        //-     +color-block("color-block_bgcolor-purple","Dark Shade 100%","#1F2041")
+        //-     +color-block("color-block_bgcolor-green","Dark Shade 100%","#1F2041")
 
-        .title-wrapper
-            +title('title',"Some text for title")
+        //- .title-wrapper
+        //-     +title('title',"Some text for title")
+        include ./components/header/header.pug    
+        
