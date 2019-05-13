@@ -5,9 +5,10 @@ $main-dark25: rgba(31, 32, 65, 0.25);
 $main-dark:rgba(31, 32, 65, 0.05);
 $purple: #BC9CFF;
 $green: #6FCF97;
-$main-font:'Quicksand', sans-serif;
-$second-font:'Montserrat', sans-serif;
-
+$main-font:'Quicksand',sans-serif;
+$second-font:'Montserrat',sans-serif;
+$gradient: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+$gtradient-green:linear-gradient(180deg, #6FCF97 0%, #66D2EA 100%);
 
 @function get-size($n, $w) {
     @return percentage($n/$w);
@@ -16,4 +17,3 @@ $second-font:'Montserrat', sans-serif;
 @function get-fz($n) {
     @return ($n/16)+em;
 }
-
