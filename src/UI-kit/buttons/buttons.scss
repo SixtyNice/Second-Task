@@ -1,0 +1,29 @@
+.button {
+    border: none;
+    width: 100px;
+    height: 45px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 22px;
+    background: $gradient;
+    cursor: pointer;
+    &:focus {
+        outline: none;
+    }
+}
+
+.button-gotopay {
+    width: 320px;
+    position: relative;
+    .button-gotopay__arrow{
+        position: absolute;
+        right: 15px;
+        top:50%;
+        transform: translateY(-50%);
+    }
+}
