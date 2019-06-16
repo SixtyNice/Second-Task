@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 html(lang="en")
     head(class="html")
         meta(charset="UTF-8")
@@ -8,6 +7,9 @@ html(lang="en")
         <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     body(class="body")
-
-        include ./components/svg__gradients/svg__gradients.pug
+        //- include ./components/svg__gradients/svg__gradients.pug
+        include ./components/buttons/buttons.pug
+        +click-me()
+        +gotopay()
+        include ./components/text-field/text-field.pug
         
